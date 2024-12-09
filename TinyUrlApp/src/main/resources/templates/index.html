@@ -15,11 +15,12 @@
 
 
 	<nav class="navbar navbar-dark bg-primary">
-		<a class="navbar-brand" href="http://localhost:8080/home/page">TinyUrlGenerator</a>
+		<a class="navbar-brand" th:href="'http://localhost:' + ${serverPort}">TinyUrlGenerator</a>
+
 	</nav>
 
 	<div class="container mt-5">
-		<h5 class="text-center mb-3">Enter Url link that you want to short</h5>
+		<h5 class="text-center mb-3">Enter Your Url Link Here...</h5>
 		<div class="row justify-content-center">
 
 			<div class="col-md-6 d-flex justify-content-center">

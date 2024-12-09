@@ -5,6 +5,7 @@ import java.util.Optional;
 import java.util.Random;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
@@ -17,8 +18,9 @@ public class AppServiceImpl implements AppService {
 	@Autowired
 	private UrlDataRepo urlDataRepo;
 	
-	@Autowired
-	private RestTemplate restTemplate;
+	
+	 @Value("${server.port}")
+	 private String port;
 	
 	@Override
 	public String saveUrl(String url)throws Exception {
@@ -49,7 +51,7 @@ public class AppServiceImpl implements AppService {
 		urlDataRepo.save(data);
 		
 		
-		return "localhost:8080/tiny/"+unique;
+		return "localhost:"+ port+"/tiny/"+unique;
 		
 		
 		
