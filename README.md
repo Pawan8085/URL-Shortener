@@ -16,11 +16,14 @@ A URL Shortener application built using the **Spring MVC** framework and **Thyme
 - **Language**: Java
 
 
-### Url and Pages
-- **home**: `http://localhost:8081/`
-  
-![tu_home](https://github.com/user-attachments/assets/34834625-6a1d-4a0a-ba42-6ac7c736eae2)
+### URLs and Pages
 
-- **Short URL Generated**: `http://localhost:8081/url-post-process`
+- **Home Page**: `http://localhost:8081/`  
+  The main landing page where users can input their long URLs to be shortened.
+   
+  ![Home Page](https://github.com/user-attachments/assets/34834625-6a1d-4a0a-ba42-6ac7c736eae2)
+
+- **Short URL Generated Page**: `http://localhost:8081/url-post-process`  
+  Displays the shortened URL after a successful submission of a long URL.
   
-![tu_short](https://github.com/user-attachments/assets/cefd4576-69e3-4c23-b818-bdbbc380c96b)
+  ![Short URL Page](https://github.com/user-attachments/assets/cefd4576-69e3-4c23-b818-bdbbc380c96b)
