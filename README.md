@@ -17,10 +17,10 @@ A URL Shortener application built using the **Spring MVC** framework and **Thyme
 
 
 ### Url and Pages
-- **home**: `http://localhost:8081/url-post-process`
+- **home**: `http://localhost:8081/`
   
 ![tu_home](https://github.com/user-attachments/assets/34834625-6a1d-4a0a-ba42-6ac7c736eae2)
 
-- **Short URL Generated**: `localhost:8081`
+- **Short URL Generated**: `http://localhost:8081/url-post-process`
   
 ![tu_short](https://github.com/user-attachments/assets/cefd4576-69e3-4c23-b818-bdbbc380c96b)
